@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginFragment" >
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Use can use "
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="615dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Google for"
+        android:textColor="@color/blue"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="615dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fredoka_one"
+        android:text=" sign in"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="257dp"
+        tools:layout_editor_absoluteY="615dp" />
+
+    <TextView
+        android:id="@+id/next_button"
+        android:layout_width="327dp"
+        android:layout_height="56dp"
+        android:background="@drawable/style_button"
+        android:clickable="true"
+        android:fontFamily="@font/fredoka_one"
+        android:foreground="?attr/selectableItemBackground"
+        android:padding="16dp"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="502dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/deep_blue"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Password"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <TextView
+        android:id="@+id/next_button"
+        android:layout_width="327dp"
+        android:layout_height="56dp"
+        android:background="@color/dark"
+        android:clickable="true"
+        android:fontFamily="@font/fredoka_one"
+        android:foreground="?attr/selectableItemBackground"
+        android:padding="16dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Forgot Password "
+        android:textColor="@color/red"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="464dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="18dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Email Address"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fredoka_one"
+        android:text="For free, join now and\nstart learning"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Not you member?"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="580dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fredoka_one"
+        android:text="SignUp"
+        android:textColor="@color/blue"
+        tools:layout_editor_absoluteX="242dp"
+        tools:layout_editor_absoluteY="580dp" />
+
+    <TextView
+        android:id="@+id/next_button"
+        android:layout_width="327dp"
+        android:layout_height="56dp"
+        android:background="@color/dark"
+        android:clickable="true"
+        android:fontFamily="@font/fredoka_one"
+        android:foreground="?attr/selectableItemBackground"
+        android:padding="16dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/login"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
